@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  background-image: url("../imgs/components/web_index_background.webp");
+  background-size: auto; /* Do NOT scale the image */
+  background-position: top center; /* Always center the image */
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* Image scrolls with content */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+p {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #80ffbd;
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1rem;
+}
