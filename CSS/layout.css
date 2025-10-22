@@ -228,7 +228,7 @@
     padding: 0 1rem;
     box-sizing: border-box;
   }
- nav ul li,
+  nav ul li,
   nav ul li a {
     font-size: 5rem !important; /* same as generel.css */
     line-height: 1 !important;
@@ -240,28 +240,4 @@
     /* prevent accidental scaling from other transform rules */
     transform: translateX(var(--nav-offset, -50%)) rotate(var(--nav-rotate, 0deg)) !important;
   }
-}
-  /* constrain main section containers */
-  .Index-section,
-  .scroll_section,
-  .grid-1_1,
-  .grid-1_1_1,
-  .facts_section,
-  .overall_prepwork {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  /* right column and stacked items fill available width but respect max-width */
-  .right-column,
-  .right-item {
-    max-width: 600px;
-    width: 100%;
-  }
-
-  /* existing mobile rules... */
-  /* ...existing code... */
 }
